@@ -14,11 +14,11 @@ Computer Science students seeking to gamify their coding consistency and track h
 
 
 ## Core Features
-**Dynamic Quest Creation**: Categorize study sessions into "Coding" or "Theory" types via a Factory pattern.
-**Momentum Engine**: A streak-tracking algorithm that calculates daily consistency and applies XP multipliers.
-**XP & Leveling System**: Progress-based leveling where different task types yield polymorphic rewards.
-**Persistence Layer**: Automatic saving and loading of user profiles and quest history to local .txt files.
-**Robust Input Validation**: Comprehensive error handling for invalid task parameters and custom exceptions.
+- **Dynamic Quest Creation**: Categorize study sessions into "Coding" or "Theory" types via a Factory pattern.
+- **Momentum Engine**: A streak-tracking algorithm that calculates daily consistency and applies XP multipliers.
+- **XP & Leveling System**: Progress-based leveling where different task types yield polymorphic rewards.
+- **Persistence Layer**: Automatic saving and loading of user profiles and quest history to local .txt files.
+- **Robust Input Validation**: Comprehensive error handling for invalid task parameters and custom exceptions.
 
 
 ## OOP Concepts Used
@@ -32,10 +32,10 @@ Computer Science students seeking to gamify their coding consistency and track h
 ## Proposed Architecture Description
 CodeLingo follows a Layered Architecture to ensure a strict separation of concerns.
 
-**Model Layer**: Defines the data entities like Quest.
-**Service Layer**: Contains the Momentum Engine and XP calculation logic.
-**Data Access Layer**: Handles File I/O for local persistence in user_stats.txt.
-**Factory Design Pattern**: Intentionally used to manage object creation, demonstrating high design maturity.
+- **Model Layer**: Defines the data entities like Quest.
+- **Service Layer**: Contains the Momentum Engine and XP calculation logic.
+- **Data Access Layer**: Handles File I/O for local persistence in user_stats.txt.
+- **Factory Design Pattern**: Intentionally used to manage object creation, demonstrating high design maturity.
 
 
 ## How to Run
